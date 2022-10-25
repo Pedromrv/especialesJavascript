@@ -447,7 +447,16 @@ Para que coincida con la funcionalidad de `switch` exactamente, el `if` debe
 Pero para strings, un simple `'=='` también funciona.
 ```javascript
 
-if(navegador == 'Edge') {   alert("¡Tienes Edge!"); } else if (navegador == 'Chrome'  || navegador == 'Firefox'  || navegador == 'Safari'  || navegador == 'Opera') {   alert( 'Está bien, soportamos estos navegadores también' ); } else {   alert( '¡Esperamos que la página se vea bien!' ); }
+if(navegador == 'Edge') {
+	alert("¡Tienes Edge!"); 
+} else if (navegador == 'Chrome'
+	|| navegador == 'Firefox'  
+	|| navegador == 'Safari'  
+	|| navegador == 'Opera') { 
+	  alert( 'Está bien, soportamos estos navegadores también' );
+ } else {  
+	  alert( '¡Esperamos que la página se vea bien!' );
+ }
 ```
 Nota: la construcción `navegador == 'Chrome' || navegador == 'Firefox' …` fue separada en varias líneas para mejorar su lectura.
 
