@@ -1,5 +1,7 @@
 # Especiales JavaScript. 
 
+Este repositorio resume brevemente las características de JavaScript que hemos aprendido hasta ahora, prestando especial atención a los detalles relevantes.
+
 ## Estructura de Código
 
 Las declaraciones se delimitan con un punto y coma:
